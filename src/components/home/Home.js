@@ -23,11 +23,12 @@ showProductSummary(){
    return this.props.compareProducts.map(product => (
       <div>
         <span class="float-right">
-          <img src={'https://codesandbox.io/s/github/nishantvnashipudi/compare-products?file=/public' + '/close.jpg'} alt='close'
+          <img src={'close.jpg'} alt='close'
           value={product.modelId}
            onClick={() => this.props.removeProduct(product.modelId)} /></span>
         {/* <img src={process.env.PUBLIC_URL + '/telivision0.jpg'} alt='tv'/>  */}
-        <img src={'https://codesandbox.io/s/github/nishantvnashipudi/compare-products?file=/public' + '/telivision0.jpg'} alt='tv'/>
+        {/* codesandbox */}
+        <img src={'telivision0.jpg'} alt='tv'/>
       <p className='product-title'>{product.title}</p>
       <p><b><i className='fa fa-inr' aria-hidden='true'></i>{product.finalPrice}</b> 
     <span className='actual-price'><del><i className='fa fa-inr' aria-hidden='true'>
