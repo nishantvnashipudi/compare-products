@@ -1,0 +1,86 @@
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1rem;
+}
+ 
+
+  .show-diff{
+    margin-left: 0.5rem;
+  }
+  .drop-down{
+    height: 5vh;
+    width: 100%;
+    border: none;
+    font-size: 0.7rem;
+    outline: none;
+    font-weight: bold;
+}
+option{
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+.drop-down :focus,::selection{
+  border: none;
+  outline: none;
+}
+.tv-img{
+    height: 15vh;
+}
+.off-color{
+    color: green;
+}
+.actual-price{
+    color: grey;
+    font-size: 9px;
+}
+/* css for table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border-right: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-left: none;
+  }
+  .header-border{
+  border: 1px solid #dddddd;
+  background-color: #ebf2fa5e;
+  }
+  .close-icon{
+      margin-right: 3vw;
+      cursor: pointer;
+      color: #e2e2e2;
+  }
+  del{
+      margin: 0.5rem;
+  }
+  .product-title{
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container > div {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: auto;
+    font-size: 1rem;
+    height: 28vh;
+  }
